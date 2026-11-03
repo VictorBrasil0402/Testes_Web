@@ -45,7 +45,7 @@ describe('Realizar Cadastro de Pessoa Física', () => {
     cy.title().should('include', 'Cadastro');
   });
 
-  it.only('Cadastro de usuário PF com data de nascimento inválida', () => {
+  it('Cadastro de usuário PF com data de nascimento inválida', () => {
 
     const usuario = UsuarioPF.pessoaFisica();
 

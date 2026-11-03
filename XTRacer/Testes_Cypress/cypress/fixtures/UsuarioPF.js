@@ -1,4 +1,4 @@
-import {gerar} from "gerador-br";
+import {gerar} from '@box4dev/gerador-br';
 
 export default class UsuarioPF{
 

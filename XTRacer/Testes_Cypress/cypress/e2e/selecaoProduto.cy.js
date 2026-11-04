@@ -95,7 +95,7 @@ describe('Selecionar Produtos', () => {
         CheckoutResumoPage.elements.tituloResumo().should('have.text', 'Resumo do pedido');
     });
 
-    it.only('Seleção de produto com CEP inválido', {defaultCommandTimeout:6000}, () => {
+    it('Seleção de produto com CEP inválido', {defaultCommandTimeout:6000}, () => {
 
         usuario.cep = '32333333';
 

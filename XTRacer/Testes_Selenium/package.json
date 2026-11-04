@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@box4dev/gerador-br": "^2.0.1",
+    "mocha": "^12.0.3",
+    "selenium-webdriver": "^4.51.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0"
+  }
+}

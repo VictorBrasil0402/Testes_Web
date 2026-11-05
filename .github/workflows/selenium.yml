@@ -62,7 +62,7 @@ jobs:
 
       - name: Run tests
         working-directory: XTRacer/Testes_Selenium
-        run: npx mocha test/login.spec.js test/selecaoProdutos.spec.js
+        run: npx mocha test/login.spec.js test/selecaoProduto.spec.js
         env: 
           TEST_EMAIL: ${{ secrets.EMAIL }} 
           TEST_PASSWORD: ${{ secrets.SENHA }} 

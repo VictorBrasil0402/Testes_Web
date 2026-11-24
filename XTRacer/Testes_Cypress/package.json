@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "cypress": "^16.2.1",
+    "cypress-if": "^1.17.1"
+  },
+  "dependencies": {
+    "@box4dev/gerador-br": "^2.0.1",
+    "cypress-real-events": "^1.15.1"
+  }
+}
